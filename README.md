@@ -1,2 +1,4 @@
 # Study_Notes
- Study notes
+
+Need a place to organize notes.
+Most (or every) notes will be in .md files.
