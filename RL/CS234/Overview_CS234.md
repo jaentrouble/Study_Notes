@@ -176,3 +176,25 @@ Review What I learned from CS234. Go over all slides.
 - Policy Gradient Algorithms and Reducing Variance
 
 - Monte-Carlo Policy Gradient (REINFORCE)
+
+## Lecture 9
+
+### Policy Gradient 2
+
+- Desired properties of a Policy Gradient RL algorithm
+  - Converge quickly to a local optima
+  - Monotonic improvement
+
+- Choosing the baseline : Value Functions
+
+- Actor-critic method
+  - Estimate of V/Q is done by a critic
+
+- Updating the Parameters
+
+- Step Sizes
+  - Auto-Step-Size selection
+
+- Trust regions
+
+- TRPO Algorithm
