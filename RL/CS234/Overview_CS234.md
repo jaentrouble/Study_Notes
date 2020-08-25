@@ -122,7 +122,6 @@ Review What I learned from CS234. Go over all slides.
 - Control using Value Function Approximation
   - Q learning
 
-
 ## Lecture 6
 
 ### CNNs and Deep Q Learning
@@ -143,7 +142,6 @@ Review What I learned from CS234. Go over all slides.
   - LR scheduling is beneficial : Try high LR in initial exploration period
   - Consider Double DQN
 
-
 ## Lecture 7
 
 ### Imitation Learning in Large State Spaces
@@ -156,3 +154,25 @@ Review What I learned from CS234. Go over all slides.
   - Inverse Reinforcement Learning
   - Apprenticeship Learning
   - Maximum Entropy Inverse RL
+
+## Lecture 8
+
+### Policy Gradient
+
+- Find policy π with the highest value function V^π
+
+- Policy based RL can learn stochastic policies
+
+- Evaluation
+  - Episodic : Start value of the policy
+  - Continuing : Average value of the policy / Average reward per time-step
+
+- Policy Gradient
+
+- Score function and policy gradient theorem
+  - Compute policy gradient analytically
+  - Define Score function
+
+- Policy Gradient Algorithms and Reducing Variance
+
+- Monte-Carlo Policy Gradient (REINFORCE)
