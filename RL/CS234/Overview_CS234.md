@@ -102,3 +102,57 @@ Review What I learned from CS234. Go over all slides.
 
 ### Value Function Approximation
 
+- Represent a (state-action/state) value function with a parameterized function instead of a table
+
+- Function approximators
+  - linear combinations
+  - NN
+  - Decision trees
+  - KNN
+  - Fourier / wavelet bases
+
+- Stochastic Gradient Descent
+
+- Don't have access to an oracle to tell true V_pi(s)
+
+- Monte Carlo Value Function Approximation
+
+- Temporal Difference learning
+
+- Control using Value Function Approximation
+  - Q learning
+
+
+## Lecture 6
+
+### CNNs and Deep Q Learning
+
+- DNN
+  - Linear + Non-linear
+
+- DQN
+  - Replay
+
+- Improvements
+  - Double DQN
+  - Prioritized Replay
+  - Dueling DQN
+    - Advantage function
+
+- Practical Tips
+  - LR scheduling is beneficial : Try high LR in initial exploration period
+  - Consider Double DQN
+
+
+## Lecture 7
+
+### Imitation Learning in Large State Spaces
+
+- Reward shaping
+  - Rewards that are dense in time
+
+- Learning from demonstrations
+  - Behavioral Cloning
+  - Inverse Reinforcement Learning
+  - Apprenticeship Learning
+  - Maximum Entropy Inverse RL
