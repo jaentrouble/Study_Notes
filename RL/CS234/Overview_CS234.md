@@ -198,3 +198,14 @@ Review What I learned from CS234. Go over all slides.
 - Trust regions
 
 - TRPO Algorithm
+
+## Lecture 10
+
+### Policy Gradient 3
+
+*_Review of previous classes_*
+
+## Lecture 11
+
+### Fast Reinforcement Learning
+
